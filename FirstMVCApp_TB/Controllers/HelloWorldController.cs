@@ -3,7 +3,7 @@ using FirstMVCApp_TB.Models;
 
 namespace FirstMVCApp_TB.Controllers
 {
-    public class HelloWorldContoller : Controller
+    public class HelloWorldController : Controller
     {
         public static List<Dog> dogs = new List<Dog>();
 
@@ -23,9 +23,6 @@ namespace FirstMVCApp_TB.Controllers
             return RedirectToAction("Index");
         }
       
-        public string Hello()
-        {
-            return "Hello";
-        }
+        
     }
 }
